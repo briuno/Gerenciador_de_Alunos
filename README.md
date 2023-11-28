@@ -13,10 +13,13 @@ Uma aplicação web modelada no padrão MVC em Java e construída com o Spring B
 - MySQL
 
 ### Formulário de Cadastro
-![formulario de cadastro](https://user-images.githubusercontent.com/89096854/170031976-645e9bd8-eaca-4a84-805c-588100e1a770.PNG)
+<img src=".github/Formulario.jpg" alt="Formulario" />
+
+### Opções de Lista
+<img src=".github/Procura.jpg" alt="Procura" />
 
 ### Lista de Alunos
-![Lista de alunos](https://user-images.githubusercontent.com/89096854/170031981-68cf5454-a727-467c-82e6-1ba2f53c2900.PNG)
+<img src=".github/Lista.jpg" alt="Lista" />
 
 
 ## Banco de Dados
@@ -35,9 +38,9 @@ O projeto é gerenciado pelo Maven, então para usa-lo basta importa-lo para uma
 Você pode criar um banco de dados MySQL com o nome o nome de sua preferência, porém é necessario adequar o projeto de acordo com as suas configurações. Para isso abra o arquivo application.properties, localizado em src/main/resources/application.properties e altere os seguintes comandos ao arquivo:
 
 ```
-spring.datasource.url = jdbc:mysql://unentel.online:3306/u135882524_teste?useTimezone=true&serverTimezone=UTC
-spring.datasource.username = u135882524_teste
-spring.datasource.password = Unentel01
+spring.datasource.url = Sua URL MySQL
+spring.datasource.username = Seu username
+spring.datasource.password = Sua Senha
 ```
  
 
