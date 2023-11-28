@@ -8,8 +8,8 @@ public enum Curso {
     ENFERMAGEM("Enfermagem"),
     BIOMEDICINA("Biomedicina"),
     DIREITO("Direito"),
-    Medicina("Medicina"),
-    Marketing("Marketing"),
+    MEDICINA("Medicina"),
+    MARKETING("Marketing"),
     VETERINARIA("Veterinária"),
     DESIGN("Design"),
     PSICOLOGIA("Psicologia");
