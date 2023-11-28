@@ -7,7 +7,12 @@ public enum Curso {
     CONTABILIDADE("Contabilidade"),
     ENFERMAGEM("Enfermagem"),
     BIOMEDICINA("Biomedicina"),
-    DIREITO("Direito");
+    DIREITO("Direito"),
+    Medicina("Medicina"),
+    Marketing("Marketing"),
+    VETERINARIA("Veterinária"),
+    DESIGN("Design"),
+    PSICOLOGIA("Psicologia");
 
     private String curso;
 

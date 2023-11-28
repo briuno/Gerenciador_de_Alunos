@@ -21,11 +21,11 @@ a {
 }
 
 a.btn-nav {
-  color: #000000;
+  color: white;
 }
 
 a.btn-nav:hover {
-  color: #000000;
+  color: #005050;
 }
 
 .header-container {
@@ -67,7 +67,7 @@ a.btn-nav:hover {
 }
 
 .neo-section {
-  min-height: 780px;
+  min-height: 790px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -141,15 +141,28 @@ a.btn-nav:hover {
   background-color: rgb(127, 220, 232);
 }
 
+.default-title {
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.arrow-back  {
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+}
+
 .rodape {
   color: #ffffff;
-  background-color: #7fdce8;
+  background-color: #005050;
   text-align: center;
   font-size: 0.8em;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
 }
-.wm a {
-  text-decoration: none;
-}
+
 .d-grid {
   font-weight: bold;
   padding-top: 20px;
@@ -157,9 +170,6 @@ a.btn-nav:hover {
 }
 
 @media screen and (max-width: 667px) {
-  .wm {
-    width: 100%;
-  }
   nav {
     height: 100%;
   }
